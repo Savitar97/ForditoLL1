@@ -26,7 +26,7 @@ public class LL {
                 System.out.println(object);
                 sr.append("2");
             }
-            if (inStr.charAt(i)=='b'&&object.peekFirst()=='A') {
+            else if (inStr.charAt(i)=='b'&&object.peekFirst()=='A') {
                 object.removeFirst();
                 object.addFirst('c');
                 object.addFirst('b');
@@ -35,7 +35,7 @@ public class LL {
                 sr.append("3");
 
             }
-            if (inStr.charAt(i)=='c'&&object.peekFirst()=='A') {
+            else if (inStr.charAt(i)=='c'&&object.peekFirst()=='A') {
                 object.removeFirst();
                 object.addFirst('c');
                 object.addFirst('b');
@@ -44,7 +44,7 @@ public class LL {
                 sr.append("3");
 
             }
-            if (inStr.charAt(i)=='d'&&object.peekFirst()=='A') {
+            else if (inStr.charAt(i)=='d'&&object.peekFirst()=='A') {
                 object.removeFirst();
                 object.addFirst('d');
                 object.addFirst('c');
@@ -62,7 +62,7 @@ public class LL {
                 sr.append("4");
 
             }
-            if (inStr.charAt(i)=='b'&&object.peekFirst()=='B') {
+            else if (inStr.charAt(i)=='b'&&object.peekFirst()=='B') {
                 object.removeFirst();
                 object.addFirst('b');
                 object.addFirst('B');
@@ -71,7 +71,7 @@ public class LL {
                 sr.append("5");
 
             }
-            if (inStr.charAt(i)=='c'&&object.peekFirst()=='B') {
+            else if (inStr.charAt(i)=='c'&&object.peekFirst()=='B') {
                 object.removeFirst();
                 object.addFirst('c');
                 object.addFirst('C');
@@ -80,7 +80,7 @@ public class LL {
                 sr.append("6");
 
             }
-            if (inStr.charAt(i)=='d'&&object.peekFirst()=='C') {
+            else if (inStr.charAt(i)=='d'&&object.peekFirst()=='C') {
                 object.removeFirst();
                 object.addFirst('d');
                 object.addFirst('D');
@@ -90,7 +90,7 @@ public class LL {
 
 
             }
-            if (inStr.charAt(i)=='e'&&object.peekFirst()=='C') {
+            else if (inStr.charAt(i)=='e'&&object.peekFirst()=='C') {
                 object.removeFirst();
                 object.addFirst('d');
                 object.addFirst('D');
