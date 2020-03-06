@@ -114,8 +114,9 @@ public class LL {
             }
         }
 
-
-        return true;
+       if(object.isEmpty()){
+        return true;}
+        else return false;
     }
 
 
